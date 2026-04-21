@@ -1,7 +1,7 @@
 /* ===== Design Tokens ===== */
 :root {
-  --clr-bg-primary: #0a0e1a;
-  --clr-bg-secondary: #111827;
+  --clr-bg-primary: #000000;
+  --clr-bg-secondary: #0a0a0a;
   --clr-bg-card: rgba(255, 255, 255, 0.04);
   --clr-bg-glass: rgba(255, 255, 255, 0.06);
   --clr-accent: #6366f1;
@@ -145,7 +145,7 @@ img { max-width: 100%; display: block; }
 }
 
 .navbar.scrolled {
-  background: rgba(10, 14, 26, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--clr-border);
